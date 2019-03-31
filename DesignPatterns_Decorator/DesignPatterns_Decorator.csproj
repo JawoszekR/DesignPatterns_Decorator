@@ -42,8 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Coffee.cs" />
+    <Compile Include="Drink.cs" />
+    <Compile Include="DrinkDecorator.cs" />
+    <Compile Include="Enums.cs" />
+    <Compile Include="IDrink.cs" />
+    <Compile Include="Milk.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sugar.cs" />
+    <Compile Include="Tea.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
